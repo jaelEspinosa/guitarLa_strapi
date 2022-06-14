@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cursosguitarras",
+      "handler": "cursosguitarra.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cursosguitarras/count",
+      "handler": "cursosguitarra.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cursosguitarras/:id",
+      "handler": "cursosguitarra.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cursosguitarras",
+      "handler": "cursosguitarra.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cursosguitarras/:id",
+      "handler": "cursosguitarra.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cursosguitarras/:id",
+      "handler": "cursosguitarra.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
